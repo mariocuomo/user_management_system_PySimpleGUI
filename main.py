@@ -118,7 +118,7 @@ layout = [
         ]
 
 # Create the window
-window = sg.Window("Form di contatto", layout,finalize=True)
+window = sg.Window("GESTIONALE", layout,finalize=True)
 pattern_email="[a-zA-Z0-9_.-]*@[a-zA-Z0-9]*[.][a-z]+"
 pattern_dataNascita="^(0[1-9]|[12][0-9]|3[01])[-/.](0[1-9]|1[012])[-/.][0-9]{4}$"
 
